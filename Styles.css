@@ -21,14 +21,34 @@ h1, h2, h3, h4, h5, p, button, a{
     justify-content: space-between;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 25px;
+   
 }
-
-
-
 .nav-anchors a{
     min-width: 80%;
     margin: 0 10px;
     
 
+}
+.navbar button{
+    margin: 0 10px;
+}
+
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main-box{
+    opacity: 80%;
+   background-color: black;
+   color: white;
+   display: flex;
+   position: absolute;
+   align-items: flex-end;
+   flex-direction: column;
+   margin: 17% auto;
+
+   
 }
