@@ -1,0 +1,17 @@
+
+
+h1, h2, h3, h4, h5, p, button, a{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.navbar{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
