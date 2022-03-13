@@ -72,6 +72,31 @@ h1, h2, h3, h4, h5, p, button, a{
 } */
 
 
+.mid-img{
+
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 50px;
+    margin: 50px 50px;
+    max-width: 1400px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box-row-contact{
     display: grid;
     grid-template-columns: repeat(3,1fr);
