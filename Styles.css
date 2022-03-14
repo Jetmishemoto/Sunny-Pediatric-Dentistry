@@ -50,6 +50,30 @@ h1, h2, h3, h4, h5, p, button, a{
 }
 
 
+.box-row-contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    max-width: 1400px;
+    margin: 250px auto 120px;
+  
+
+    align-items: center;
+    padding: 0 25px;
+}
+.innerbox{
+
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgb(255 255 255 / 48%) 10px 10px 10px;
+    width: 390px;
+    border-radius: 15px;
+    padding: 50px 10px;
+    text-align: center;
+    justify-content: center;
+    height: 230px;
+}
+
+
 
 
 
@@ -86,6 +110,7 @@ h1, h2, h3, h4, h5, p, button, a{
 .mid-text{
 
     text-align: center;
+    margin: 250px auto;
     
 }
 .mid-text h3{
@@ -104,14 +129,13 @@ h1, h2, h3, h4, h5, p, button, a{
 /* -------------------------------------------------------------- */
 
 .mid-img{
-
     display: grid;
-    grid-template-columns: repeat(3,2fr);
-    gap: 50px;
-    margin: 50px 50px;
+    grid-template-columns: repeat(2,1fr);
+    margin: 20px 30px;
     max-width: 1400px;
     justify-items: center;
     align-items: center;
+    gap: 20px;
     
 }
 
@@ -149,7 +173,7 @@ h1, h2, h3, h4, h5, p, button, a{
 .endmid-text-3{
     
     text-align: left;
-    margin: 300px 150px;
+    margin: 100px 150px;
     max-width: 1400px;
 
 }
@@ -159,38 +183,40 @@ h1, h2, h3, h4, h5, p, button, a{
 
 }
 
-
-
-
-
-
-
 /* ------------------------------------------------------------------------------------------------------------------------------------- */
 
-
-
-
-
-
-.box-row-contact{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 25px;
+.bottom-bg{
+    display: flex;
+    justify-content: center;
     max-width: 1400px;
-    margin:20px auto 120px;
+}
+
+.bottom-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    margin: 100px 150px;
   
 
-    align-items: center;
-    padding: 0 25px;
 }
-.innerbox{
 
-    background-color: rgb(0, 0, 0);
-    box-shadow: rgb(255 255 255 / 48%) 10px 10px 10px;
-    width: 390px;
-    border-radius: 15px;
-    padding: 50px 10px;
-    text-align: center;
-    justify-content: center;
-    height: 230px;
+.subscribe-input{
+    display: grid;
+    align-content: center;
+    gap: 50px;
+
 }
+
+.f-bottom{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    max-width: 1400px;
+    text-align: center;
+    margin:20px auto 0 ;
+   
+
+}
+
+
