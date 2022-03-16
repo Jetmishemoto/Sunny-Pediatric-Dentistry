@@ -206,16 +206,48 @@ h1, h2, h3, h4, h5, p, button, a{
     display: grid;
     align-content: center;
     gap: 50px;
+    grid-template-columns: repeat(2,2fr);
+    margin: 20px;
 
+}
+
+
+.s-bottom{
+
+
+    background-color: gray;
+   
+}
+
+
+
+.s-bottom-row{
+    display: flex;
+    gap: 50px;
+    text-align: left;
+    margin: auto 200px;
+
+
+}
+.s-bottom-box{
+
+    margin: 0 auto 20px;
+
+}
+.s-bottom-box button{
+
+    border-radius: 20px;
+    padding: 12px 13px;
+    margin: 0 50px;
 }
 
 .f-bottom{
     display: flex;
     justify-content: center;
     background-color: aqua;
-    max-width: 1400px;
-    text-align: center;
-    margin:20px auto 0 ;
+    
+   
+    
    
 
 }
