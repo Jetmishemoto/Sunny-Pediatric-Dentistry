@@ -265,7 +265,40 @@ h1, h2, h3, h4, h5, p, button, a{
     }
 
 
+    
+}
+
+
+
+@media screen and (max-width: 1187px){
+
+    .box-row-contact{
+    
+        max-width: 1400px;
+        margin: 250px auto 120px;
+        align-items: center;
+
+    }
 
 }
+
+@media screen and (max-width: 1030px){
+    .box-row-contact{
+    
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+
+    .mid-text{
+        display: none;
+
+    }
+    .mid-img{
+        grid-template-columns: auto;
+    }
+
+}
+
     
 
