@@ -303,10 +303,22 @@ content: "";
 }
 
 @media screen and (max-width: 1030px){
+
+    .nav-anchors button{
+        margin: 10px;
+    }
+    .nav-anchors a {
+        display: none;
+
+    }
     .box-row-contact{
     
         display: grid;
         grid-template-columns: auto;
+
+    }
+    .innerbox{
+        
 
     }
 
@@ -318,6 +330,18 @@ content: "";
         grid-template-columns: auto;
     }
 
+}
+
+@media screen and (max-width: 512px){
+
+
+    .nav-anchors a {
+        display: none;
+
+    }
+    .nav-anchors button{
+        margin: 10px;
+    }
 }
 
     
