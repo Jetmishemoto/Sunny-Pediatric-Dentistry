@@ -98,7 +98,7 @@ content: "";
     justify-content: center;
     background-position: center;
     background-size: cover;
-    margin: 50px auto;
+    margin: 100px auto;
     background-attachment: fixed;
     background-image: url(Imgs/Top_bg.png);
     width: 2000px;
@@ -108,8 +108,8 @@ content: "";
 .main-box{
     box-shadow: rgb(0 0 0 / 75%) 10px 10px 10px;
     opacity: 80%;
-    max-width: 1400px;
-    background-color: rgb(98, 118, 230);
+    padding: 50px;
+    background-color: #1a497a;
     color: white;
     display: flex;
     position: absolute;
@@ -121,7 +121,9 @@ content: "";
 
 
 .mid-text{
-    background-color: rgb(98, 118, 230);
+    color: white;
+    padding: 50px;
+    background-color: #1a497a;
     text-align: center;
     margin: 450px auto;
 }
@@ -212,7 +214,7 @@ content: "";
 
 .bottom-content-contaner{
     
-    background-color: rgb(98, 118, 230);
+    background-color: #1a497a;
 
 
 }
@@ -241,9 +243,22 @@ content: "";
 
 }
 
+.bottom-img{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+    background-attachment: fixed;
+    background-image: url(Imgs/Kid_2.jpg);
+    width: 2000px;
+    height: 750px;
+
+}
+
 
 .s-bottom{
-    background-color: rgb(58 82 211);
+    background-color: #1a497a;
 
    content: "";
    
@@ -264,6 +279,7 @@ content: "";
     color: white;
     margin: 0 100px;
     text-align: left;
+    padding: 50px;
 
 }
 .s-bottom-box button{
@@ -271,6 +287,9 @@ content: "";
     border-radius: 20px;
     padding: 12px 13px;
     margin: 0 50px;
+}
+.s-bottom-img{
+    padding: 100px;
 }
 
 .f-bottom{
@@ -283,9 +302,11 @@ content: "";
 @media screen and (max-width: 2500px) {
     .main-box{
         
-       margin: 500px auto;
-       top: 20%;
-
+margin: 500px auto;
+        
+top: 20%;
+        
+width: auto;
     }
 
 }
@@ -319,7 +340,7 @@ content: "";
     }
     .innerbox{
         
-
+        content: "";
     }
 
     .mid-text{
