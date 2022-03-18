@@ -17,6 +17,8 @@ button{
 h1, h2, h3, h4, h5, p, button, a{
 
     font-family: 'Fredoka', sans-serif;
+    font-kerning: none;
+    font-size: x-large;
 }
 
 
@@ -28,7 +30,7 @@ h1, h2, h3, h4, h5, p, button, a{
 .navbar{
    
     display:  flex;
-    max-width: 1400px;
+
     align-items: center;
     justify-content: space-between;
 
@@ -51,20 +53,22 @@ h1, h2, h3, h4, h5, p, button, a{
 }
 
 
+
+
+
+
 .box-row-contact{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 25px;
     max-width: 1400px;
     margin: 250px auto 120px;
-  
-
     align-items: center;
-    padding: 0 25px;
+    
 }
 .innerbox{
-
-    background-color: rgb(0, 0, 0);
+  
+    background-color:transparent rgb(0, 0, 0);
     box-shadow: rgb(255 255 255 / 48%) 10px 10px 10px;
     width: 390px;
     border-radius: 15px;
@@ -72,6 +76,11 @@ h1, h2, h3, h4, h5, p, button, a{
     text-align: center;
     justify-content: center;
     height: 230px;
+}
+.inner-text{
+
+content: "";
+
 }
 
 
@@ -87,16 +96,20 @@ h1, h2, h3, h4, h5, p, button, a{
 .main{
     display: flex;
     justify-content: center;
-}
-.main-img{
+    background-position: center;
+    background-size: cover;
     margin: 50px auto;
-    
+    background-attachment: fixed;
+    background-image: url(Imgs/Top_bg.png);
+    width: 2000px;
+    height: 750px;
 }
+
 .main-box{
     box-shadow: rgb(0 0 0 / 75%) 10px 10px 10px;
     opacity: 80%;
     max-width: 1400px;
-    background-color: black;
+    background-color: rgb(98, 118, 230);
     color: white;
     display: flex;
     position: absolute;
@@ -108,10 +121,9 @@ h1, h2, h3, h4, h5, p, button, a{
 
 
 .mid-text{
-
+    background-color: rgb(98, 118, 230);
     text-align: center;
-    margin: 250px auto;
-    
+    margin: 450px auto;
 }
 .mid-text h3{
 
@@ -188,7 +200,21 @@ h1, h2, h3, h4, h5, p, button, a{
 .bottom-bg{
     display: flex;
     justify-content: center;
-    max-width: 1400px;
+    background-position: center;
+    background-size: cover;
+    margin: 50px auto;
+    background-attachment: fixed;
+    background-image: url(Imgs/kid_1.png);
+    width: 2000px;
+    height: 750px;
+    
+}
+
+.bottom-content-contaner{
+    
+    background-color: rgb(98, 118, 230);
+
+
 }
 
 .bottom-content{
@@ -196,9 +222,12 @@ h1, h2, h3, h4, h5, p, button, a{
     justify-content: center;
     gap: 20px;
     text-align: left;
-    margin: 100px 150px;
-  
+}
 
+.bottom-content-text{
+   color: white;
+  margin: 0 200px;
+  padding: 50px;
 }
 /* ------------------------------------------------------- */
 
@@ -207,35 +236,38 @@ h1, h2, h3, h4, h5, p, button, a{
     align-content: center;
     gap: 50px;
     grid-template-columns: repeat(2,2fr);
-    margin: 20px;
+    margin: 0 20px;
+    
 
 }
 
 
 .s-bottom{
+    background-color: rgb(58 82 211);
 
-
-    background-color: gray;
+   content: "";
    
 }
 
 
 
 .s-bottom-row{
-    display: flex;
+   display: grid;
+   grid-template-columns:  repeat(2,1fr);
     gap: 50px;
-    text-align: left;
+    
     margin: auto 200px;
 
 
 }
 .s-bottom-box{
-
-    margin: 0 auto 20px;
+    color: white;
+    margin: 0 100px;
+    text-align: left;
 
 }
 .s-bottom-box button{
-
+    
     border-radius: 20px;
     padding: 12px 13px;
     margin: 0 50px;
@@ -244,7 +276,7 @@ h1, h2, h3, h4, h5, p, button, a{
 .f-bottom{
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    
     
 }
 
