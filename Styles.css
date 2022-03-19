@@ -187,6 +187,39 @@ content: "";
     gap: 20px;
     
 }
+/* ------------------------------------------------------------- */
+
+.mid-img > img:nth-last-of-type(6){
+    width: 500px;
+    height: 350px;
+
+}
+.mid-img > img:nth-last-of-type(5){
+    width: 500px;
+    height: 350px;
+
+}
+.mid-img > img:nth-last-of-type(4){
+    width: 400px;
+    height: 250px;
+
+}
+.mid-img > img:nth-last-of-type(3){
+    width: 600px;
+    height: 450px;
+
+}
+.mid-img > img:nth-last-of-type(2){
+    width: 500px;
+    height: 450px;
+
+}
+.mid-img > img:nth-last-of-type(1){
+    width: 900px;
+    height: 450px;
+
+}
+/* ----------------------------------------------------------------------- */
 
 
 
@@ -486,6 +519,9 @@ content: "";
     .mid-text{
         max-width: 100%;
         height: auto;
+    }
+    .mid-img{
+        display: block;
     }
 
     .bottom-bg{
