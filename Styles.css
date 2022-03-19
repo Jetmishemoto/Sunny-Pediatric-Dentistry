@@ -585,6 +585,11 @@ content: "";
     .mid-img{
         grid-template-columns: auto;
     }
+
+
+    .s-bottom-img{
+        margin: auto;
+    }
 }
 
     
